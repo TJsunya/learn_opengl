@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{aef6ae31-6b21-4f4a-a216-d3181e33ef8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="own_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="own_shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blinn_phong.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shaowmap_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blinn_with_point_sm_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="normap_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="defer_shading_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ssao_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pbr_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pbr_brdf_red_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="own_camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="own_mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="own_shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="model_loading.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="model_loading.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="depth_testing.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="depth_testing.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="stencil_test.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="stencil_test.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="framebuffer.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="framebuffer.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="skybox.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="skybox.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="reflect.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="reflect.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="geometry.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="geometry.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="geometry.gs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="model_loading.gs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="model_loading_normal.gs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="instance.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="instance.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="planet.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="planet.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="rock.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="rock.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_phong.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_phong.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shadowmap.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shadowmap.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="show_shadowmap.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="show_shadowmap.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_phong_with_sm.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_phong_with_sm.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_with_point_sm.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="blinn_with_point_sm.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="point_shadowmap.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="point_shadowmap.gs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="point_shadowmap.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="normal_tangent.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="normal_tangent.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="gaussian_blur.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="gaussian_blur.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_gbuffer.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_gbuffer.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_lighting.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_lighting.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_light_box.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="defer_light_box.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_gbuffer.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_gbuffer.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_ssao.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_ssao.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_blur.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_blur.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_lighting.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="ssao_lighting.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_simple.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_simple.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_cubemap.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_cubemap.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_cubemap_background.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_cubemap_background.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_cubemap_convolute.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_simple_red.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_simple_red.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_prefilter.ps">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_brdf.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="pbr_brdf.ps">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader_light.ps">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
